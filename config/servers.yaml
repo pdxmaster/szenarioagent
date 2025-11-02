@@ -1,0 +1,38 @@
+# Server profiles for Trainexus/ExamSim deployments
+# Extend with additional environments as needed. Each profile is used on Page 0 of the wizard.
+UBT:
+  description: "Universität Bayreuth production"
+  mysql_host: "127.0.0.1"
+  mysql_port: 3306
+  mysql_db: "trainexus"
+  pg_host: "127.0.0.1"
+  pg_port: 5432
+  pg_db: "trainexus_rag"
+  owner: "ubt_owner"
+Trainexus:
+  description: "Trainexus SaaS production"
+  mysql_host: "127.0.0.1"
+  mysql_port: 3306
+  mysql_db: "trainexus"
+  pg_host: "127.0.0.1"
+  pg_port: 5432
+  pg_db: "trainexus_rag"
+  owner: "trainexus_owner"
+KNOLL:
+  description: "Knoll corporate deployment"
+  mysql_host: "127.0.0.1"
+  mysql_port: 3306
+  mysql_db: "knoll_trainings"
+  pg_host: "127.0.0.1"
+  pg_port: 5432
+  pg_db: "knoll_rag"
+  owner: "knoll_owner"
+DEV:
+  description: "Local developer sandbox"
+  mysql_host: "127.0.0.1"
+  mysql_port: 3307
+  mysql_db: "trainexus_dev"
+  pg_host: "127.0.0.1"
+  pg_port: 5433
+  pg_db: "trainexus_rag_dev"
+  owner: "local_dev"
