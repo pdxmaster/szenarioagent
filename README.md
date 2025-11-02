@@ -18,13 +18,13 @@ Streamlit-Wizard zum Erstellen, Testen und Ausrollen von Dialog-Szenarien für T
 ### Voraussetzungen
 
 - Python 3.11+
-- Streamlit, jsonschema, tenacity, pytest sowie optionale Datenbank-/OpenAI-Abhängigkeiten (`pymysql`, `paramiko`, `psycopg2`, `openai`)
+- Installierte Projektabhängigkeiten (siehe `requirements.txt`)
 - Zugangsdaten in `.env`
 
 ### Installation
 
 ```bash
-pip install -r requirements.txt  # Falls verwendet
+pip install -r requirements.txt
 streamlit run streamlit_app.py
 ```
 
