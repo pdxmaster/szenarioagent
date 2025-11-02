@@ -1,0 +1,17 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "title": "Trainexus Scenario",
+  "type": "object",
+  "additionalProperties": false,
+  "required": ["tag", "desc", "info", "name", "message"],
+  "properties": {
+    "tag": {"type": "string", "minLength": 1},
+    "desc": {"type": "string", "minLength": 1},
+    "info": {"type": "string", "minLength": 1},
+    "name": {"type": "string", "minLength": 1},
+    "message": {"type": "string", "minLength": 1},
+    "assistant_id": {"type": "string"},
+    "sumfeedback_id": {"type": "string"},
+    "formfeedback_id": {"type": "string"}
+  }
+}
